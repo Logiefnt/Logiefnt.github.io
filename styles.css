@@ -1,0 +1,58 @@
+h1, h2, h3, h4 {
+    color:rgb(136, 18, 18);
+    text-align:center;
+   
+}
+.gameRules {
+    border: 6px;
+    border: inset;
+    color: black;
+    box-sizing: border-box;
+    width: 150px;
+    text-align: center;
+}
+.parentDiv {  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+body {
+    font-family: 'Pirata One', cursive;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+body {
+    background-image: url("https://www.sparklebox.co.uk/wp-content/uploads/portrait-220.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-color: #cccccc;
+    background-size: auto;
+    
+
+  }
+ 
+h1, h2, h3, h4 {
+    margin: bottom 200px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    
+  }
+tr, td {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+body { 
+    background: url(https://www.sparklebox.co.uk/wp-content/uploads/portrait-220.jpg"/) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-position: center
+  }
+
+ 

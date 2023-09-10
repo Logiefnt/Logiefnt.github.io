@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirates Cove</title>
+    <link rel="icon" type="image/x-icon" href="https://thumbs.dreamstime.com/b/pirate-elements-vector-eps-hand-drawn-vector-eps-logo-icon-silhouette-illustration-crafteroks-different-uses-pirate-element-146466532.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <h1>Treasure Island</h1>
+    <h2>Captain Jack's Treasure</h2>
+     <ol class="gameRules">
+    <h3>Game Rules:</h3>
+    <h4>Click the boxes to reveal what’s on the map.</h4>
+    <h4>If you click on the bomb, you lose the booty!</h4>
+    <h4>If you click on the treasure, you win the riches!</h4>
+    </ol>
+    <div class="parentDiv">
+    <img src="https://media.tenor.com/_ebpxpPHNTEAAAAM/treasure.gif">
+    </div>
+    <hr />
+    <table border=1>
+      <tr>
+        <td id="0" onclick="changeToEmoji(0)">?</td>
+        <td id="1" onclick="changeToEmoji(1)">?</td>
+        <td id="2" onclick="changeToEmoji(2)">?</td>
+    
+      </tr>
+    <tr>
+        <td id="3" onclick="changeToEmoji(3)">?</td>
+        <td id="4" onclick="changeToEmoji(4)">?</td>
+        <td id="5" onclick="changeToEmoji(5)">?</td>
+      </tr>
+      <tr>
+        <td id="6" onclick="changeToEmoji(6)">?</td>
+        <td id="7" onclick="changeToEmoji(7)">?</td>
+        <td id="8" onclick="changeToEmoji(8)">?</td>
+    </tr>
+    </table>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <footer>&copy; Christina & Logan 2023</footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
